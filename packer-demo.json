@@ -1,12 +1,12 @@
 {
   "variables": {
-    "aws_access_key": "AKIAUQ233CKGU33WURUW",
-    "aws_secret_key": "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"
+    "aws_access_key": "AKIAUQ233CKGS353MQ4Q",
+    "aws_secret_key": "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"
   },
   "builders": [{
     "type": "amazon-ebs",
-    "access_key": "{{user `AKIAUQ233CKGU33WURUW`}}",
-    "secret_key": "{{user `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`}}",
+    "access_key": "{{user `AKIAUQ233CKGS353MQ4Q`}}",
+    "secret_key": "{{user `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`}}",
     "region": "eu-west-1",
     "source_ami": "ami-0964eb2dc8b836eb6",
     "instance_type": "t2.micro",
